@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%)no-repeat;
+    color:#fff;
+}
+
+.header{
+    max-width:1197px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    padding:20px 15px 110px 15px;
+}
+
+.header__logo{
+    display: block;
+    width:135px;
+    height:30px;
+    background-image: url("Images/NFT/logo.svg");
+    background-repeat: no-repeat;
+}
+
+.form{
+    position: relative;
+}
+
+.form-button{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-image: url("Images/NFT/Vector.svg");
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top:calc(50% - 10px);
+    left: 10px;
+}
+
+.form-input{
+    width:384px;
+    height:50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border:none;
+    padding:10px 40px;
+    color:white;
+    font-size: 20px;
+}
+
+.form-input:focus{
+    outline: none;
+}
+
+.form-input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.header__list{
+    display: flex;
+    list-style-type: none;
+    gap:40px;
+    font-size:20px;
+}
+
+.header__link{
+    color:white;
+    text-decoration: none;
+}
+
+.header__link-gradient{
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    border-radius: 10px;
+    padding:10px 20px;
+}
+
+.container{
+    max-width: 1197px;
+    margin:0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text{
+    flex-basis: 490px;
+}
+
+.main-title{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.main-desc{
+    font-size:20px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.8;
+}
+
+.main-btn{
+    font-size: 20px;
+    color:#fff;
+    padding:10px 20px;
+    text-decoration: none;
+    background-color: rgba(255,255,255,.1);
+    margin-right:10px;
+    border-radius: 10px;
+}
+.main-btn-gradient{
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    border-radius: 10px;
+}
+
+.main-image{
+    flex-basis: calc(100% - 490px - 116px);
+}
+
+.main-img{
+    width:100%;
+}
+
+.main-list{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    gap: 110px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.main-item{
+    color: rgba(255, 255, 255, 0.5);
+    font-size:20px;
+}
+
+.main-span{
+    display: flex;
+    color:#fff;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.company{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.title{
+    font-size:40px;
+    font-weight: 700;
+    text-align: center;
+    max-width:390px;
+    margin:0 auto 4px;
+    margin-top:150px;
+}
+
+.desc{
+    font-size:20px;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.5);
+    margin:0 auto;
+    max-width: 420px;
+    margin-top:20px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    transition: 0.7s;
+}
+
+.card-item{
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding:26px 26px 30px 26px;
+    flex-basis: 32%;
+    box-sizing: border-box;
+}
+
+.card-cover{
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    height:380px;
+}
+
+.card-img{
+    position: absolute;
+    width:100%;
+    height:380px;
+    left:50%;
+    top:50%;
+    transform: translate(-50% , -50%);
+    object-fit: cover;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-nick{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.card-author{
+    font-size: 20px;
+    font-weight: 700;
+    color:#FFF;
+}
+
+.card-bid{
+    color: rgba(255, 255, 255, 0.5);
+    font-size:15px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.card-price{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+}
+
+.card-link{
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    border-radius: 10px;
+    text-decoration: none;
+    color:#FFF;
+    font-size:20px;
+    font-weight: 500;
+    padding:11px 22px;
+    display:block;
+    text-align: center;
+    position: relative;
+}
+
+.card-item:hover{
+    transition: 0.7s;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.card-link:hover{
+    background: linear-gradient(45deg,#B75CFF 33%,#671AE4 60%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    transition: 0.7s;
+}
+
+.card-link:after{
+    content: '';
+    background-image:url("Images/NFT/ramka.svg");
+    display: block;
+    width:100%;
+    height:50px;
+    transition: 0.7s;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: .8s ;
+}
+.card-link:hover:after{
+    opacity: 1;
+}
+
+.collapsible {
+    background-color: transparent;
+    color: rgba(255,255,255,0.5);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+}
+
+.active, .collapsible:hover {
+    background-color: transparent;
+    color: rgba(255,255,255,1);
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    letter-spacing: 1px;
+}
+.faq{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-item{
+    flex-basis: 48%;
+}
+
+.banner{
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    border-radius: 10px;
+    padding: 60px 15px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.banner-title{
+    font-size:50px;
+    font-weight: 700;
+    max-width:500px;
+    margin:0 auto;
+    line-height: 1.9;
+}
+
+.banner-link{
+   background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    font-size: 20px;
+    padding:10px 20px;
+    margin-top: 30px;
+    text-decoration: none;
+    color:#fff;
+}
